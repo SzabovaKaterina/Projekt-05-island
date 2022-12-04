@@ -206,7 +206,8 @@ h2::after {
 .popisek-copy a { 
     opacity: 0;
     color:white;
-    text-decoration: none;background-color: rgba(29, 29, 29, 0.4);
+    text-decoration: none;
+    background-color: rgba(29, 29, 29, 0.4);
 }
 .galerie-popisek:hover,
 .popisek-copy a{
@@ -309,24 +310,31 @@ h1 {
     overflow: hidden; 
     flex-basis: 33.33%; 
 }  
-.foto p { 
-        opacity: 0;
-		transition: 0.3s;
-		position: absolute;
-		top: 80%;
-		left: 0%;
-		color: white;
-		background-color: rgba(29, 29, 29, 0.4);
-		width: 100%;
-
+.foto p{ 
+    opacity: 0;
+	transition: 0.3s;
+	position: absolute;
+	top: 70%;
+	right: 10%;
+	color: white;
+	background-color: rgba(29, 29, 29, 0.4);
+	width: 100%;
 }
+.galerie-popisek{
+    position:relative;
+    top:-20%;
+    right:100%;
+}
+.galerie-popisek,
 .popisek-copy a {
     color:white;
-    text-decoration: none;    
+    text-decoration: none; 
+
 }
 .galerie-popisek:hover{
     opacity: 1;
-    transform: translateY(-70%);
+    transform: translateY(-20%);
+
 }
 
 .galerie{ 
